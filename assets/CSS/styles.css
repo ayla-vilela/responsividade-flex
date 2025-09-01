@@ -1,0 +1,118 @@
+    * {
+        margin: 0;
+    }
+
+    .header {
+        background-color: rgb(247, 122, 100);
+        text-align: center;
+        border: none;
+        padding: 2rem;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        /* border: none; */
+        height: 80vh;
+
+    }
+
+    .left {
+        background-color: rgb(224, 214, 67);
+        
+        /* padding-top: 35.5vh; */
+        /* padding-bottom: 35.5vh; */
+
+    }
+
+    .main {
+        background-color: rgb(255, 255, 255);
+        /* padding-top: 35.5vh; */
+        /* padding-bottom: 35.5vh; */
+
+    }
+
+    .right {
+        background-color: rgb(133, 223, 180);
+        /* width: 300px; */
+        /* padding-top: 35.5vh; */
+        /* padding-bottom: 35.5vh; */
+
+    }
+
+    .footer {
+        background-color: rgb(108, 112, 230);
+        text-align: center;
+        border: none;
+        padding: 2rem;
+    }
+
+    /* Responsividade */
+    @media screen and (max-width:767px) {
+        .right {
+            background-color: rgb(9, 255, 0);
+        }
+
+        .left {
+            background-color: rgb(132, 0, 0);
+        }
+
+        .header {
+            background-color: rgb(139, 151, 0);
+        }
+
+        .main,
+        .container {
+            background-color: rgb(234, 54, 168);
+        }
+
+        .footer {
+            background-color: rgb(32, 183, 115);
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container,
+        .header,
+        .footer {
+
+            font-family: cursive
+        }
+        
+    }
+
+
+    @media screen and (min-width: 768px) and (max-width:1023px) {
+        .right {
+            background-color: darkmagenta;
+        }
+
+        .left {
+            background-color: rgb(30, 211, 243);
+        }
+
+        .header {
+            background-color: cadetblue;
+        }
+
+        .main,
+        .container {
+            background-color: rgb(74, 184, 188);
+        }
+
+        .footer {
+            background-color: rgb(169, 214, 124);
+        }
+
+    
+
+    .container,
+    .header,
+    .footer {
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+}
